@@ -1,14 +1,27 @@
+
+
 body {
+  background-image: url(hatter.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   color: white;
+  font-family: Geneva, sans-serif;
+}
+
+span
+{
+  font-weight: bold;
+  color: cyan;
 }
 
 #tartalom {
+  margin: auto;
+  width: 900px;
   background-color: rgba(4, 42, 63, 0.8);
+  margin-top: 20px;
   margin-bottom: 20px;
   padding: 40px;
 }
@@ -18,9 +31,16 @@ body {
   margin: auto 20px;
 }
 
+#kepek
+{
+  padding: 10px;
+  max-width: 800px;
+  border-bottom: solid 3px rgb(58, 189, 201);
+}
+
 .kepalairas {
   font-size: 1.3em;
-  margin: 0;
+  margin: auto;
   font-style: italic;
   text-align: center;
   line-height: 130%;
@@ -37,10 +57,34 @@ table {
 th {
   background-color: rgba(58, 189, 201, 0.6);
   color: white;
+  text-align: center;
 }
 
 th,
 td {
   border: 1px solid rgb(58, 189, 201);
   padding: 5px;
+}
+
+h1, h2
+{
+  font-style: italic;
+}
+
+
+a
+{
+  color: rgb(58, 189, 201);
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: yellow;
+}
+
+p
+{
+  text-align: justify;
+  text-indent: 20px;
 }
